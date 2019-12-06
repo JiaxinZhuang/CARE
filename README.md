@@ -10,11 +10,11 @@ This repo contains the **official pytorch implemetation** for CARE.
 
 ### Motivation
 
-![Motivation](/Users/lincolnzjx/Desktop/CARE/Motivation.png)
+![Motivation](./Motivation.png)
 
 ### Framework  
 
-![Framework](/Users/lincolnzjx/Desktop/CARE/Framework.png)
+![Framework](./Framework.png)
 
 
 ### Requiements
