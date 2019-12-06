@@ -1,8 +1,11 @@
-## Pytorch Implementatoin for: CARE: Class Attention to Regions of Lesion for Classification on Imbalanced Data. (MIDL-2019)
+## CARE: Class Attention to Regions of Lesion for Classification on Imbalanced Data. (MIDL-2019)
 ***
 
-We would continue updating all the codes in the near future.
-This repo would contain the pytorch implemetation for CARE. 
+This repo contains the **official pytorch implemetation** for CARE. 
+
+### News
+* [2019/12/6] We would continue updating all the codes in the near future.
+
 
 ### Requiements
 * Python 3.6+
