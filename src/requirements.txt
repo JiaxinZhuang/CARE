@@ -1,7 +1,0 @@
-tensorboardX
-pandas
-sklearn
-matplotlib
-opencv-python
-torchvision
-torch
