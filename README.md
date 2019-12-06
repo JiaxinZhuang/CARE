@@ -1,10 +1,20 @@
 ## CARE: Class Attention to Regions of Lesion for Classification on Imbalanced Data. (MIDL-2019)
 ***
 
+by Jiaxin Zhuang, Jiabin Cai, Ruixuan Wang, Jianguo Zhang and Wei-shi Zheng.
+
 This repo contains the **official pytorch implemetation** for CARE. 
 
 ### News
 * [2019/12/6] We would continue updating all the codes in the near future.
+
+### Motivation
+
+![Motivation](/Users/lincolnzjx/Desktop/CARE/Motivation.png)
+
+### Framework  
+
+![Framework](/Users/lincolnzjx/Desktop/CARE/Framework.png)
 
 
 ### Requiements
@@ -18,6 +28,21 @@ This repo contains the **official pytorch implemetation** for CARE.
 
 ```bash
 pip install -r requirement.txt
+```
+
+
+
+### Citation
+
+```latex
+@inproceedings{Zhuang2019CARE,
+  author = {Zhuang, Jiaxin and Cai, Jiabin and Wang, Ruixuan and Zhang, Jianguo and Zheng, Weishi},
+  title = {CARE: Class Attention to Regions of Lesion for Classification on Imbalanced Data},
+  booktitle = {Proceedings of The 2nd International Conference on Medical Imaging with Deep Learning},
+  month = {Jul},
+  year = {2019},
+  address = {London, United Kingdom}
+}
 ```
 
 
