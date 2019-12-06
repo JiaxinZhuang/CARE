@@ -11,3 +11,15 @@ This repo contains the **official pytorch implemetation** for CARE.
 * Python 3.6+
 * Pytorch 1.3
 * Cuda 9.2+ or Cuda 10.1+
+* package required in requirement.txt
+* Datasets & Masks (Download from our GoogleDriver).
+
+### Installation
+
+```bash
+pip install -r requirement.txt
+```
+
+
+
+## 
