@@ -1,5 +1,9 @@
 """Model for CARE.
+
+    Jiaxin Zhuang, linconz9511@gmail.com.
 """
+# -*- coding: utf-8 -*-
+
 
 import torch.nn as nn
 import torch.nn.functional as F
