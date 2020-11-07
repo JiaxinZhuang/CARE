@@ -24,6 +24,9 @@ This repo contains the **official pytorch implemetation** for CARE.
 * package required in requirement.txt
 * Datasets & Masks (Download from our GoogleDriver).
 
+### Dataset
+Download from [OFFICIAL](https://challenge.isic-archive.com/data#2018)
+
 ### Installation
 
 ```bash
