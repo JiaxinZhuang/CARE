@@ -1,0 +1,7 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Local editor history and upload configuration
+.history/
+.vscode-upload.json
