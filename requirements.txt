@@ -1,0 +1,43 @@
+# CT preprocessing
+torch==2.6.0
+torchvision==0.21.0
+numpy==2.2.6
+pandas==2.2.2
+scipy==1.14.1
+scikit-learn==1.5.1
+nibabel==5.2.1
+SimpleITK==2.4.0
+blosc2==3.0.0b4
+
+# Classification / LP / ROI / Segmentation / Retrieval
+monai==1.5.0
+torchmetrics==1.7.2
+timm==1.0.16
+transformers==4.57.3
+tqdm==4.66.5
+
+# 3D OpenCLIP (custom source required)
+ftfy==6.2.3
+regex==2026.7.19
+huggingface-hub==0.34.4
+safetensors==0.5.3
+fsspec==2024.6.1
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Report generation
+accelerate==1.10.1
+einops==0.8.0
+peft==0.15.2
+Pillow==12.3.0
+scikit-image==0.24.0
+# FlashAttention (required; separate CUDA build)
+# python -m pip install --no-build-isolation flash-attn==2.7.4.post1
+
+# BLEU / ROUGE / METEOR / GREEN
+datasets==4.0.0
+nltk==3.9.1
+protobuf==6.32.0
+rouge-score==0.1.2
+sentence-transformers==5.1.0
+sentencepiece==0.2.0

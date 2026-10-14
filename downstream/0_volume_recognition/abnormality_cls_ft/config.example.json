@@ -1,0 +1,46 @@
+{
+  "source_version": "CARE_external_abnormality_cls_ft_v1",
+  "labels": [
+    "finding_1",
+    "finding_2",
+    "finding_3",
+    "finding_4",
+    "finding_5",
+    "finding_6",
+    "finding_7"
+  ],
+  "aux_labels": [],
+  "windows": [
+    [80, 40],
+    [160, 60],
+    [400, 40]
+  ],
+  "training": {
+    "arm": "X_staged",
+    "seed": 26,
+    "epochs": 24,
+    "microbatch": 1,
+    "accumulation": 24,
+    "workers": 3,
+    "head_lr": 0.0003,
+    "encoder_lr": 0.00003,
+    "lora_lr": 0.0001,
+    "llrd": 0.9,
+    "weight_decay": 0.01,
+    "rank": 16,
+    "lora_blocks": 0,
+    "last_n": 8,
+    "head_type": "ln_linear",
+    "pool_type": "tok",
+    "feature_l2": false,
+    "schedule_mode": "staged",
+    "train_droppath": false,
+    "orientation": "ras",
+    "normalization": "pretrained",
+    "resize_mode": "physical",
+    "augmentation": "flip",
+    "input_size": [112, 336, 336],
+    "patience": 5,
+    "early_stop_start": 8
+  }
+}
